@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo_section {
+    min-height: 100vh;
+    background: linear-gradient(149deg, #052836, #2e0732,#093833);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.todo_content {
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border: 8px solid transparent;
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.35),inset -5px -5px 15px rgba(255,255,255,0.1), inset 5px 5px 15px rgba(0,0,0,0.35);   
+    border-radius: 20px;
+    width: 60%;
+    /* height: %; */
+    
+}
+.content_box{
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+}
+.content_box header{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.content_box header h2{
+    color: white;
+    mix-blend-mode: overlay;
+}
+.input-btn_box{
+    padding: 15px 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.input-btn_box input{
+    height: 40px;
+    width: 100%;
+    padding: 0px 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: math;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: ghostwhite;
+}
+.add-btn-box button{
+    font-size: 20px;
+    background: transparent;
+    border: none;
+}
+.add-btn-box button:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+
+
+/* check list style */
+
+.checklist{
+    text-align: center;
+}
+.checklist button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 17px;
+    background: transparent;
+    border: 2px solid cadetblue;
+    color: blueviolet;
+}
+.checklist button:hover{
+    background-color: #2e0732;
+    cursor: pointer;
+    border: none;
+}

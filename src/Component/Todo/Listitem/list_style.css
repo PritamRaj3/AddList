@@ -1,0 +1,48 @@
+.listitem_section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+
+.listitem {
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 4px 10px 4px 8px;
+    justify-content: space-between;
+    width: 40%;
+    background-color: transparent;
+    color: darkgray;
+    text-transform: capitalize;
+    align-items: center;
+    
+}
+.listitem h3{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.listitem:hover {
+    background-color: aliceblue;
+    filter: invert(100%);
+}
+
+.list-btn {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-btn span {
+    font-size: 20px;
+    cursor: pointer;
+}
+.list-btn span:active{
+    filter: invert(100%);
+}
